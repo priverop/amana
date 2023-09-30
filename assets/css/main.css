@@ -1497,6 +1497,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			img {
+				max-width: 100%;
+			}
+
 			#main article {
 				padding: 3.5rem 2rem 0.5rem 2rem ;
 			}
