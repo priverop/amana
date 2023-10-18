@@ -173,10 +173,9 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000;
-		font-weight: 600;
+		font-weight: normal;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
 
@@ -196,15 +195,12 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.25rem;
-		line-height: 1.3;
+		font-size: 1rem;
 		letter-spacing: 0.5rem;
 	}
 
 	h2 {
-		font-size: 1.5rem;
-		line-height: 1.4;
-		letter-spacing: 0.5rem;
+		font-size: .5rem;
 	}
 
 	h3 {
@@ -1139,7 +1135,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 2rem 2rem;
 			}
 
 		}
@@ -1222,7 +1218,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.25s;
 				-ms-transition-delay: 0.25s;
 				transition-delay: 0.25s;
-				padding: 3rem 2rem;
+				padding: 2rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
